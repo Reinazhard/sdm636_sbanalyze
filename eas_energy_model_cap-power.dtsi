@@ -1,0 +1,80 @@
+
+&CPU0 {
+	capacity-dmips-mhz = <1024>;
+};
+
+&CPU1 {
+	capacity-dmips-mhz = <1024>;
+};
+
+&CPU2 {
+	capacity-dmips-mhz = <1024>;
+};
+
+&CPU3 {
+	capacity-dmips-mhz = <1024>;
+};
+
+&CPU4 {
+	capacity-dmips-mhz = <1024>;
+};
+
+&CPU5 {
+	capacity-dmips-mhz = <1024>;
+};
+
+&CPU6 {
+	capacity-dmips-mhz = <1024>;
+};
+
+&CPU7 {
+	capacity-dmips-mhz = <1024>;
+};
+
+/ {
+	energy_costs: energy-costs {
+		compatible = "sched-energy";
+
+		CPU_COST_0: core-cost0 {
+			busy-cost-data = <
+				 215    4
+				 307   13
+				 379   19
+				 477   34
+				 523   44
+				 549   53
+			>;
+			idle-cost-data = <
+				
+			>;
+		};
+
+		CPU_COST_1: core-cost1 {
+			busy-cost-data = <
+				 631   77
+				 794  107
+				 991  173
+				1024  180
+			>;
+			idle-cost-data = <
+				
+			>;
+		};
+
+		CLUSTER_COST_0: cluster-cost0 {
+			busy-cost-data = <
+			>;
+			idle-cost-data = <
+				
+			>;
+		};
+
+		CLUSTER_COST_1: cluster-cost1 {
+			busy-cost-data = <
+			>;
+			idle-cost-data = <
+				
+			>;
+		};
+	}; /* energy-costs */
+};
