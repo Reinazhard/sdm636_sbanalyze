@@ -1,0 +1,8 @@
+Frequency      Power          Speed          Perf Ratio  Efficiency
+
+1612800 kHz	   1876.0 mW	  53295197 μs	 2.547 x	 736.7 mW/perf
+1536000 kHz	   1840.5 mW	  55956440 μs	 2.425 x	 758.8 mW/perf
+1401600 kHz	   1799.0 mW	  61324670 μs	 2.213 x	 812.9 mW/perf
+1113600 kHz	   1670.5 mW	  77191364 μs	 1.758 x	 950.1 mW/perf
+ 902400 kHz	   1617.5 mW	  95266205 μs	 1.425 x	 1135.4 mW/perf
+ 633600 kHz	   1562.5 mW	 135718007 μs	 1.000 x	 1562.5 mW/perf
